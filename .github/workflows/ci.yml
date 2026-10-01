@@ -1,4 +1,4 @@
-# Corrección: Se arregló la sintaxis YAML. Faltaban corchetes "[ ]", "pull_request" estaba mal escrito, y faltaban los guiones "-" en los steps.
+
 name: CI Java Maven
 on:
   push:
@@ -21,4 +21,3 @@ jobs:
       - name: Compilar y ejecutar pruebas
         run: mvn clean test
 
-        
