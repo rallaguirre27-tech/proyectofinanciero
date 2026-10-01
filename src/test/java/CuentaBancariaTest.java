@@ -12,7 +12,8 @@ public class CuentaBancariaTest {
         // Corrección: Las líneas de código estaban mezcladas en el PDF. Se ordenaron correctamente.
         CuentaBancaria cuenta = new CuentaBancaria(100);
         cuenta.depositar(50);
-        assertEquals(200, cuenta.obtenerSaldo());
+        assertEquals(150, cuenta.obtenerSaldo());
     }
 }
+
 
